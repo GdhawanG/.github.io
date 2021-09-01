@@ -1,4 +1,5 @@
 //Initialize News params
+
 let country = 'in';
 const api_key = '0f2486d181aa41acb2ffaa660e7429f1';
 let url = `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${api_key}`;
