@@ -6,7 +6,7 @@ let url = `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${api_
 function greetUsers() {
   // Testing if greetMsg is correct as per time
   //let dayTime = new Date(2021, 08, 30, 11, 59, 40).getHours();
-  let dayTime = new Date().toLocaleTimeString();
+  let dayTime = new Date().getHours();
   return (greetMsg =
     dayTime < 12
       ? 'Good Morning'
