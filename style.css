@@ -1,0 +1,94 @@
+.navbar navbar-light {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fefefd;
+}
+
+#secondsClock,
+#greeting {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fefefd;
+}
+
+.container my-3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+nav {
+  background-color: #001e50;
+}
+
+#navbar-brand {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fefefd;
+  font-size: xx-large;
+}
+
+#navbar-brand:hover {
+  text-shadow: 2px 2px 4px white;
+}
+
+#germanNewsDiv {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: #fefefd;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #001e50;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the QR Code */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the QR Code */
+.icon-bar a:hover {
+  /* background-color: #001e50; */
+  zoom: 1.1;
+}
+
+.qrCode {
+  /* background: #3b5998; */
+  color: white;
+}
+
+/* Style for flag radio buttons */
+#flag {
+  width: 40px;
+}
+
+.form-check-input {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.form-check {
+  margin-left: 10px;
+  padding-top: 5px;
+}
