@@ -109,7 +109,7 @@ function fetchData(language) {
 
 setInterval(clock, 1000);
 setInterval(greetUsers, 1000);
-fetchData('en');
+//fetchData('en');
 
 //Weather Data
 function fetchWeather() {
@@ -125,7 +125,7 @@ function fetchWeather() {
       console.error(err);
     });
 }
-fetchWeather();
+//fetchWeather();
 
 function AutoRefresh(mSec) {
   setTimeout('location.reload(true);', mSec);
