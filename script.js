@@ -64,10 +64,8 @@ function fetchData(language) {
   url = `https://newsapi.org/v2/everything?q=volkswagen&sortBy=relevancy&from=${today}&language=${language}&apiKey=${api_key}`;
   fetch(url)
     .then(Response => {
-      return Response.json();
-    })
-    .then(data => {
       let newsHtml = '';
+      let data = Response.json();
       let articles = data.articles;
       articles.forEach(function callbackFn(element, index) {
         if (language == 'en') {
