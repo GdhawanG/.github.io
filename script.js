@@ -70,7 +70,7 @@ function fetchData(language) {
     .then(data => {
       let newsHtml = '';
       articles = data.articles;
-      articles.forEach((element, index) => return {
+      articles.forEach(function (element, index) {
         if (language == 'en') {
           let news = `<div class="card">
                         <div class="card-header" id="heading${index}">
