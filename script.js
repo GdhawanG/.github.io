@@ -3,6 +3,7 @@ let language;
 let today = new Date().toDateString();
 const api_key = '0f2486d181aa41acb2ffaa660e7429f1';
 let url;
+let articles;
 
 const englishDivBtn = document.getElementById('englishDivBtn');
 const germanDivBtn = document.getElementById('germanDivBtn');
@@ -69,7 +70,7 @@ function fetchData(language) {
     .then(data => {
       let newsHtml = '';
       articles = data.articles;
-      articles.forEach(function (element, index) {
+      articles.forEach((element, index) => return {
         if (language == 'en') {
           let news = `<div class="card">
                         <div class="card-header" id="heading${index}">
