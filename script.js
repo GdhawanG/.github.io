@@ -67,7 +67,7 @@ function fetchData(language) {
       let newsHtml = '';
       let data = Response.json();
       let articles = data.articles;
-      articles.forEach(function callbackFn(element, index) {
+      articles.forEach(async function callbackFn(element, index) {
         if (language == 'en') {
           let news = `<div class="card">
                         <div class="card-header" id="heading${index}">
