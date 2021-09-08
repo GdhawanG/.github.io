@@ -70,6 +70,7 @@ function fetchData(language) {
       return data.articles;
     })
     .then(articles => {
+    console.log(`articles - ${articles}`);
       let newsHtml = '';
       articles.forEach(function callbackFn(element, index) {
         if (language == 'en') {
