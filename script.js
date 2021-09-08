@@ -69,10 +69,11 @@ function fetchData(language) {
     })
     .then(data => {
       articles = data.articles;
+      console.log(`articles - ${articles}`);
       return articles;
     })
     .then(articles => {
-    console.log(`articles - ${articles}`);
+    console.log(`articlessss - ${articles}`);
       let newsHtml = '';
       articles.forEach(function callbackFn(element, index) {
         if (language == 'en') {
