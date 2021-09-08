@@ -61,13 +61,15 @@ function clock() {
 
 //Using fetch api
 function fetchData(language) {
+  let articles;
   url = `https://newsapi.org/v2/everything?q=volkswagen&sortBy=relevancy&from=${today}&language=${language}&apiKey=${api_key}`;
   fetch(url)
     .then(Response => {
       return Response.json();
     })
     .then(data => {
-      return data.articles;
+      articles = data.articles;
+      return articles;
     })
     .then(articles => {
     console.log(`articles - ${articles}`);
