@@ -61,21 +61,21 @@ function clock() {
 
 //Using fetch api
 function fetchData(language) {
-  let articles;
+  let articles = [];
   url = `https://newsapi.org/v2/everything?q=volkswagen&sortBy=relevancy&from=${today}&language=${language}&apiKey=${api_key}`;
   fetch(url)
     .then(Response => {
       return Response.json();
     })
     .then(data => {
-      articles = data.articles;
+      let articles = data.articles;
       console.log(`articles - ${articles}`);
       return articles;
     })
-    .then(articles => {
-    console.log(`articlessss - ${articles}`);
+    .then(newsArticles => {
+      console.log(`newsArticles - ${newsArticles}`);
       let newsHtml = '';
-      articles.forEach(function callbackFn(element, index) {
+      newsArticles.forEach(function callbackFn(element, index) {
         if (language == 'en') {
           let news = `<div class="card">
                         <div class="card-header" id="heading${index}">
