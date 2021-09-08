@@ -2,7 +2,7 @@
 let language;
 let today = new Date().toDateString();
 const api_key = '0f2486d181aa41acb2ffaa660e7429f1';
-let url;
+
 
 const englishDivBtn = document.getElementById('englishDivBtn');
 const germanDivBtn = document.getElementById('germanDivBtn');
@@ -61,14 +61,15 @@ function clock() {
 
 //Using fetch api
 function fetchData(language) {
-  let articles = [];
+  let url = '';
   url = `https://newsapi.org/v2/everything?q=volkswagen&sortBy=relevancy&from=${today}&language=${language}&apiKey=${api_key}`;
   fetch(url)
     .then(Response => {
       return Response.json();
     })
     .then(data => {
-      let articles = data.articles;
+      let articles = [];
+      articles = data.articles;
       console.log(`articles - ${articles}`);
       return articles;
     })
