@@ -1,0 +1,210 @@
+.navbar navbar-light {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fefefd;
+}
+
+#secondsClock,
+#greeting {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fefefd;
+}
+
+.container my-3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+nav {
+  background-color: #001e50;
+}
+
+#navbar-brand {
+  font-family: 'Times New Roman', Times, serif;
+  color: #fefefd;
+  font-size: xx-large;
+}
+
+#navbar-brand:hover {
+  text-shadow: 2px 2px 4px white;
+}
+
+#germanNewsDiv,#englishNewsDiv {
+  display: none;
+}
+
+.footer {
+  position: fixed;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: #fefefd;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #001e50;
+}
+
+
+/* Style for flag radio buttons */
+#flag {
+  width: 40px;
+}
+
+.form-check-input {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.form-check {
+  margin-left: 10px;
+  padding-top: 5px;
+  display: none;
+}
+
+.card{
+  width:350px; 
+  float: left;
+  margin: 10px;
+}
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  left:0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: white;
+}
+
+.partName {
+  background: #001e50;
+  color: white;
+}
+
+
+#cart {
+  background: #001e50;
+  color: white;
+  position: fixed;
+  margin-block: auto;
+  top: 40%;
+  right:0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+#page-wrap{
+  font: 14px / 1.4 Georgia, serif;
+  padding: 0;
+  width: 800px;
+  margin: 0 auto;
+}
+
+*{margin:0;padding:0}body{font:14px/1.4 Georgia,serif}#page-wrap{width:800px;margin:0 auto}textarea{border:0;font:14px Georgia,Serif;overflow:hidden;resize:none}table{border-collapse:collapse}table td,table th{border:1px solid #000;padding:5px}#header{height:15px;width:100%;margin:20px 0;background:#222;text-align:center;color:#fff;font:700 15px Helvetica,Sans-Serif;text-decoration:uppercase;letter-spacing:20px;padding:8px 0}#address{width:250px;height:150px;float:left}#customer{overflow:hidden}#logo{text-align:right;float:right;position:relative;margin-top:25px;border:1px solid #fff;max-width:540px;max-height:100px;overflow:hidden}#logo:hover,#logo.edit{border:1px solid #000;margin-top:0;max-height:125px}#logoctr{display:none}#logo:hover #logoctr,#logo.edit #logoctr{display:block;text-align:right;line-height:25px;background:#eee;padding:0 5px}#logohelp{text-align:left;display:none;font-style:italic;padding:10px 5px}#logohelp input{margin-bottom:5px}.edit #logohelp{display:block}.edit #save-logo,.edit #cancel-logo{display:inline}.edit #image,#save-logo,#cancel-logo,.edit #change-logo,.edit #delete-logo{display:none}#customer-title{font-size:20px;font-weight:700;float:left}#meta{margin-top:1px;width:300px;float:right}#meta td{text-align:right}#meta td.meta-head{text-align:left;background:#eee}#meta td textarea{width:100%;height:20px;text-align:right}#items{clear:both;width:100%;margin:30px 0 0;border:1px solid #000}#items th{background:#eee}#items textarea{width:80px;height:50px}#items tr.item-row td{border:0;vertical-align:top}#items td.description{width:300px}#items td.item-name{width:175px}#items td.description textarea,#items td.item-name textarea{width:100%}#items td.total-line{border-right:0;text-align:right}#items td.total-value{border-left:0;padding:10px}#items td.total-value textarea{height:20px;background:0 0}#items td.balance{background:#eee}#items td.blank{border:0}#terms{text-align:center;margin:20px 0 0}#terms h5{text-transform:uppercase;font:13px Helvetica,Sans-Serif;letter-spacing:10px;border-bottom:1px solid #000;padding:0 0 8px;margin:0 0 8px}#terms textarea{width:100%;text-align:center}textarea:hover,textarea:focus,#items td.total-value textarea:hover,#items td.total-value textarea:focus,.delete:hover{background-color:#ef8}.delete-wpr{position:relative}.delete{display:block;color:#000;text-decoration:none;position:absolute;background:#eee;font-weight:700;padding:0 3px;border:1px solid;top:-6px;left:-22px;font-family:Verdana;font-size:12px}
+
+
+/* {box-sizing: border-box;} */
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+
+
+/* .form-popup {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+} */
+
+.form-popup {
+position: absolute;
+  /* right: 615px; */
+  right: 40%;
+  width: 300px;
+  bottom: 250px;
+  border: 3px solid #f1f1f1;
+  padding: 10px;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  /* background-color: #04AA6D; */
+  background-color: #001e50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+

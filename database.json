@@ -1,0 +1,25 @@
+{
+    "accessories": [
+        {
+            "id": 1,
+            "partName": "Door protector",
+            "carName": "Polo",
+            "gender": "male",
+            "price": 2000
+        },
+        {
+            "id": 2,
+            "partName": "Body Cover",
+            "carName": "Polo",
+            "gender": "male",
+            "price": 3000
+        },
+        {
+            "id": 3,
+            "partName": "Bumper",
+            "carName": "Polo",
+            "gender": "female",
+            "price": 5000
+        }
+    ]
+}
